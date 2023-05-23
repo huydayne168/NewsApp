@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- link reset CSS -->
+        <link rel="stylesheet" href="./css/reset.css" />
+        <!-- link utilities CSS -->
+        <link rel="stylesheet" href="./css/utilities.css" />
+        <!-- Link Cdn font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- link main CSS -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>News App</title>
+    </head>
+    <body>
+        <!-- Side bar -->
+        <div class="side-bar">
+            <ul class="navigation">
+                <li class="logo">
+                    <a href="#"
+                        ><img src="./asset/img/img_45428.png" alt="logo"
+                    /></a>
+                </li>
+                <li class="home">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <p>home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/news.html">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <p>news</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/todo.html">
+                        <i class="fa-solid fa-list"></i>
+                        <p>To Do</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/setting.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>setting</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Template if user have not login yet -->
+        <div class="container not-login hidden">
+            <h1 class="title">Home</h1>
+            <p class="status-desc">Please Login or Register</p>
+
+            <div class="buttons">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+        </div>
+
+        <!-- Template if user have already login -->
+        <div class="container login">
+            <h1 class="title">Home</h1>
+            <p class="status-desc greet">
+                <!-- render "Hello ${username}" -->
+            </p>
+
+            <div class="buttons">
+                <button class="logout">Logout</button>
+            </div>
+
+            <img src="" alt="" />
+        </div>
+
+        <!-- Link Javascript -->
+        <script src="./script/storage.js"></script>
+        <script src="./script/home.js"></script>
+    </body>
+</html>

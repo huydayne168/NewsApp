@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- link reset CSS -->
+        <link rel="stylesheet" href="../css/reset.css" />
+        <!-- link utilities CSS -->
+        <link rel="stylesheet" href="../css/utilities.css" />
+        <!-- link main CSS -->
+        <link rel="stylesheet" href="../css/register.css" />
+        <title>News App</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Register New User</h1>
+            <form action="#" class="register-form">
+                <input
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="First name"
+                />
+                <input
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    placeholder="Last name"
+                />
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"
+                />
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                />
+                <input
+                    type="password"
+                    name="confirm-password"
+                    id="confirm-password"
+                    placeholder="Confirm Password"
+                />
+
+                <button class="register-btn">Register</button>
+            </form>
+        </div>
+
+        <!-- Link Javascript -->
+        <script src="../script/storage.js"></script>
+        <script src="../models/User.js"></script>
+        <script src="../script/register.js"></script>
+    </body>
+</html>

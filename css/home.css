@@ -1,0 +1,48 @@
+body {
+    color: #000;
+    position: relative;
+}
+
+a {
+    color: #444;
+}
+
+img {
+    width: 100%;
+}
+
+.side-bar {
+    width: 12rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    padding: 1.2rem;
+    padding-left: 2.4rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.navigation li {
+    font-size: 1.8rem;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 1.2rem;
+    padding: 0.6rem;
+}
+
+.navigation li:not(:first-child):hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.navigation i {
+    font-size: 3.2rem;
+}
+
+.logo {
+    margin-bottom: 1.2rem;
+}

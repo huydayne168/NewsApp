@@ -1,0 +1,118 @@
+* {
+    /* transition: all ease 300ms; */
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    font-size: 1.6rem;
+    margin: 0px;
+    /* background-color: #ff3cac;
+    background-image: linear-gradient(
+        135deg,
+        #ff3cac 0%,
+        #784ba0 50%,
+        #2b86c5 100%
+    );
+    background-repeat: no-repeat; */
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+    margin-left: 12.8rem;
+    padding: 6rem;
+}
+
+h1.title {
+    margin-top: 2rem;
+    font-size: 6rem;
+    color: #444;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ======== Side bar css ======== */
+.active {
+    background-color: #48484870;
+}
+
+.navigation li.active:hover {
+    background-color: #48484870 !important;
+}
+
+body {
+    color: #000;
+    position: relative;
+}
+
+a {
+    color: #444;
+}
+
+img {
+    width: 100%;
+}
+
+.side-bar {
+    width: 12.8rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    padding: 1.2rem;
+    padding-left: 2.4rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.navigation li {
+    width: 100%;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+.navigation li a {
+    width: 100%;
+    display: inline-block;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    padding: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navigation li:not(:first-child):hover {
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.navigation i {
+    font-size: 3.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.navigation li p {
+    font-size: 1rem;
+}
+
+.logo {
+    margin-bottom: 1.2rem;
+}
